@@ -15,7 +15,7 @@ Short press → cycle through LED modes
 
 Long press → turn the system off (return to sleep)
 
-The colour cycle is as follows with a solid colour mode followed by flashing mode of the same colour
+The colour cycle is as follows with a solid colour mode followed by flashing mode of the same colour <br>
 RED -> YELLOW -> PINK -> GREEN -> ORANGE -> PURPLE -> BLUE
 
 The currently selected mode is saved in EEPROM so it can be restored after power loss.
@@ -25,4 +25,5 @@ The currently selected mode is saved in EEPROM so it can be restored after power
 2. Use USB Serial UPDI Programmer with 3.3V I think
 3. Settings for upload: (Make sure Chip is ATtiny1616, Clock is 16Mhz Internal and Programmer is set to SerialUPDI - SLOW: 57600 baud)
 <img width="490" height="550" alt="image" src="https://github.com/user-attachments/assets/27b8eb26-e0c2-4d51-a724-0cf734578c80" />
+
 4. Then Sketch -> Upload Using Programmer, doing normal upload might work as well
