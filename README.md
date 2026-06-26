@@ -1,4 +1,4 @@
-High-level purpose
+### High-level purpose
 
 This firmware runs on an ATtiny1616 and controls:
 
@@ -12,6 +12,8 @@ The system is designed for very low power consumption.
 It normally stays in deep sleep (power-down mode) and only wakes when the user long-presses the button. Once awake, the button is used to:
 
 Short press → cycle through LED modes
+
+RED -> YELLOW -> PINK -> GREEN -> ORANGE -> PURPLE -> BLUE with flashing in between 
 
 Long press → turn the system off (return to sleep)
 
