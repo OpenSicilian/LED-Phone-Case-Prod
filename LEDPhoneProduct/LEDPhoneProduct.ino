@@ -168,7 +168,7 @@ void runningMode() {
     break;
 
     case 1:
-    flash(255, 0, 0);
+    flash(255, 0, 0); // FLASH RED
     break;
 
     case 2:
@@ -176,7 +176,7 @@ void runningMode() {
     break;
 
     case 3:
-    flash(255, 255, 0);
+    flash(255, 255, 0); // FLASH YELLOW
     break;
 
     case 4:
@@ -184,7 +184,7 @@ void runningMode() {
     break;
 
     case 5:
-    flash(255, 105, 180);
+    flash(255, 105, 180); // FLASH PINK
     break;
 
     case 6:
@@ -192,7 +192,7 @@ void runningMode() {
     break;
 
     case 7:
-    flash(0, 255, 0);
+    flash(0, 255, 0); // FLASH GREEN
     break;
 
     case 8:
@@ -200,7 +200,7 @@ void runningMode() {
     break;
 
     case 9:
-    flash(255, 180, 0);
+    flash(255, 180, 0); // FLASH ORANGE
     break;
 
     case 10:
@@ -208,7 +208,7 @@ void runningMode() {
     break;
 
     case 11:
-    flash(125, 0, 255);
+    flash(125, 0, 255); // FLASH PURPLE
     break;
 
     case 12:
@@ -216,7 +216,7 @@ void runningMode() {
     break;
 
     case 13:
-    flash(0, 0, 255);
+    flash(0, 0, 255); // FLASH BLUE
     break;
 
     default:
